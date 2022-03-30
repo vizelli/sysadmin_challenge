@@ -5,8 +5,8 @@ Sysadmin Challenge
 
 Premisses:
 
-    The script must receive an argument to process, which is the file name (control_file.txt);
-    Find duplicated fake IP addresses and keep just the first one. All other duplicated IP addresses must be removed;
+1) The script must receive an argument to process, which is the file name (control_file.txt);
+2) Find duplicated fake IP addresses and keep just the first one. All other duplicated IP addresses must be removed;
 
 
 E.g:
@@ -18,7 +18,7 @@ The final expected result is:
 540.300.759.124   lnx02csv lnx02csv.02csv.sps     pid=1  ia1=y domain=02csv        myid=2  wsm=PR wid=1 wst=NA,HI,CP,SC,DS # ADM
  
 
-    All comment lines must be kept on the final output file.
+All comment lines must be kept on the final output file.
 
 USAGE:
 
