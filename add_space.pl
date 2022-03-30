@@ -5,7 +5,6 @@ my $indent = Text::Indent->instance;
 my $filename = 'output_1.txt';
 $indent->increase;
 
-#!/usr/bin/perl -w
 open(FH, '<', $filename) or die $!;
 
 while(<FH>){
