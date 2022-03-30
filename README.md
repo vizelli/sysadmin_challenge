@@ -14,3 +14,7 @@ date (hh:mm:ss mm/dd/yy)    <server name>      <server ip>    <server version>
 
 E.g:
 18:53:44 12/10/21    webserver001   192.168.80.5   Linux (none) 2.6.34.14 ##44 Tue Oct 15 20:50:15 CEST 2013 i686 GNU/Linux
+
+USAGE:
+
+bash get_OS_info.sh myservers_list.txt
