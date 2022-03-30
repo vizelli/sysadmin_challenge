@@ -8,7 +8,6 @@ $indent->increase;
 open(FH, '<', $filename) or die $!;
 
 while(<FH>){
-   #print $_;
    print $indent->indent($_);
    $indent->increase(2);
 }
